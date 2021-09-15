@@ -1,0 +1,69 @@
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #90e0ef;
+}
+
+#bostonpic{
+    background-image: url(Nightlife.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 80%;
+    text-align: center;
+}
+
+ul{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #0a2239;
+    text-align: center;
+    padding-top: 10px; 
+    padding-bottom: 15px;
+    height: 60px;
+    color: #f2e9e4;
+    /*background-image: radi(to right, #2c7da0, #0a2239);*/
+    background-image: radial-gradient(circle, #1b3a4b,#014f86,#0091ad);
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
+    font-size: 75%;
+    padding: 5% 3% 1%;
+}
+
+nav { 
+    background-color: #f2e9e4;
+    font-weight: bold; 
+    text-align: center;
+    padding: 20px;
+    color: #0a2239;
+}
+
+nav a{
+    text-decoration: none;
+    color: #0a2239;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #f2e9e4;
+    background-color: #0a2239;
+}
+.active {
+    background-color: #0091ad;
+  }
