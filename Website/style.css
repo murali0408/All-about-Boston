@@ -6,7 +6,7 @@
 }
 
 #bostonpic{
-    background-image: url(Nightlife.jpg);
+    background-image: url(pics/Nightlife.jpg);
     height: 400px;
     background-size: 100% 100%;
 }
@@ -34,7 +34,6 @@ header{
     padding-bottom: 15px;
     height: 60px;
     color: #f2e9e4;
-    /*background-image: radi(to right, #2c7da0, #0a2239);*/
     background-image: radial-gradient(circle, #1b3a4b,#014f86,#0091ad);
     background-repeat: no-repeat;
 }
@@ -58,7 +57,6 @@ nav a{
     color: #0a2239;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 nav a:hover{
     color: #f2e9e4;
@@ -66,4 +64,50 @@ nav a:hover{
 }
 .active {
     background-color: #0091ad;
+  }
+  .restaurant2{
+    background-image: url(pics/giuliapic.jpg);
+
+  }
+  .restaurant1{
+    background-image: url(pics/we-ordered-khao-soi-which.jpg);
+  }
+  .restaurant3{
+    background-image: url(pics/tasting-counter.jpg);
+  }
+  .style-img{
+    height: 300px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+    margin-top: 25px;
+  }
+  .inner{
+      width: 30%;
+      float: left;
+  }
+  .outer{
+    width: 30%;
+    float: left;
+  }
+
+  h2{
+      text-align: right;
+      display:inline-flex;
+  }
+   .sizing{
+      padding-bottom: 20%;
+      height: 100px;
+  } 
+
+  .tourist1{
+    background-image: url(pics/freedom-trail.jpg);
+  }
+  .tourist2{
+      background-image: url(pics/fenwaypark.jpg);
+  }
+  .tourist3{
+      background-image: url(pics/bostoncommon.jpg);
   }
