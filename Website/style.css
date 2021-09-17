@@ -6,17 +6,14 @@
     min-width: 960px;
     max-width: 2048px;
 }
-
 #bostonpic{
     background-image: url(pics/Nightlife.jpg);
     height: 25em;
     background-size: 100% 100%;
 }
-
 body{
     background-image: linear-gradient(#ade8f4,#005f73);
 }
-
 main{
     margin-left: auto;
     margin-right: auto;
@@ -26,13 +23,11 @@ main{
     width: 80%;
     text-align: center;
 }
-
 ul{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-
 header{
     background-color: #0a2239;
     text-align: center;
@@ -43,13 +38,11 @@ header{
     background-image: radial-gradient(circle, #1b3a4b,#014f86,#0091ad);
     background-repeat: no-repeat;
 }
-
 footer{
     text-align: center;
     font-size: 75%;
     padding: 5% 3% 1%;
 }
-
 nav { 
     background-color: #f2e9e4;
     font-weight: bold; 
@@ -57,7 +50,6 @@ nav {
     padding: 1.25em;
     color: #0a2239;
 }
-
 nav a{
     text-decoration: none;
     color: #0a2239;
@@ -90,7 +82,6 @@ nav a:hover{
     width: 30%;
     margin-top: 1.2em;
 }
-
 h2{
       text-align: right;
       display:inline-flex;
