@@ -1,7 +1,7 @@
 #wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     background-color: #90e0ef;
 }
 
@@ -64,18 +64,18 @@ nav a:hover{
 }
 .active {
     background-color: #0091ad;
-  }
-  .restaurant2{
+}
+.restaurant2{
     background-image: url(pics/giuliapic.jpg);
 
-  }
-  .restaurant1{
+}
+.restaurant1{
     background-image: url(pics/we-ordered-khao-soi-which.jpg);
-  }
-  .restaurant3{
+}
+.restaurant3{
     background-image: url(pics/tasting-counter.jpg);
-  }
-  .style-img{
+}
+.style-img{
     height: 300px;
     background-repeat: no-repeat;
     float: left;
@@ -83,31 +83,89 @@ nav a:hover{
     margin-right: 20px;
     width: 30%;
     margin-top: 25px;
-  }
-  .inner{
+}
+.inner{
       width: 30%;
       float: left;
-  }
-  .outer{
+}
+.outer{
     width: 30%;
     float: left;
-  }
-
-  h2{
+}
+h2{
       text-align: right;
       display:inline-flex;
-  }
-   .sizing{
+}
+.sizing{
       padding-bottom: 20%;
       height: 100px;
-  } 
-
-  .tourist1{
+      margin: auto;
+} 
+.tourist1{
     background-image: url(pics/freedom-trail.jpg);
-  }
-  .tourist2{
+}
+.tourist2{
       background-image: url(pics/fenwaypark.jpg);
-  }
-  .tourist3{
+}
+.tourist3{
       background-image: url(pics/bostoncommon.jpg);
-  }
+}
+.university1{
+      background-image: url(pics/harvard.jpg);
+}
+.university2{
+    background-image: url(pics/mit.jpg);
+} 
+.university3{
+    background-image: url(pics/neu.jpg);
+}
+.event1{
+    background-image: url(pics/hub.jpg);
+}
+.event2{
+     background-image: url(pics/liberty.jpg);
+} 
+.event3{
+     background-image: url(pics/rcc.jpg);
+}
+#container{
+    width: 50%;
+    margin-left: 38%;
+}
+input[type="text"]{
+    width: 40%;
+    padding: 12px 20px;
+    border:2px solid #000;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+input[type="submit"]{
+    background-color: forestgreen;
+    color: ghostwhite;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+input[type="submit"]:hover{
+    background-color: darkgreen;
+}
+textarea{
+    border-radius: 4px;
+    border:2px solid #000;
+    width: 45%;
+    margin: 8px 0;
+}
+#align-center{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+span{
+    font-style: italic;
+    font-size: 20px;
+    color: #023e8a;
+}
