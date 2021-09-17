@@ -1,14 +1,20 @@
 #wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
     background-color: #90e0ef;
+    min-width: 960px;
+    max-width: 2048px;
 }
 
 #bostonpic{
     background-image: url(pics/Nightlife.jpg);
-    height: 400px;
+    height: 25em;
     background-size: 100% 100%;
+}
+
+body{
+    background-image: linear-gradient(#ade8f4,#005f73);
 }
 
 main{
@@ -30,9 +36,9 @@ ul{
 header{
     background-color: #0a2239;
     text-align: center;
-    padding-top: 10px; 
-    padding-bottom: 15px;
-    height: 60px;
+    padding-top: 0.625em; 
+    padding-bottom: 0.937em;
+    height: 3.75em;
     color: #f2e9e4;
     background-image: radial-gradient(circle, #1b3a4b,#014f86,#0091ad);
     background-repeat: no-repeat;
@@ -48,7 +54,7 @@ nav {
     background-color: #f2e9e4;
     font-weight: bold; 
     text-align: center;
-    padding: 20px;
+    padding: 1.25em;
     color: #0a2239;
 }
 
@@ -56,7 +62,7 @@ nav a{
     text-decoration: none;
     color: #0a2239;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875em 1em;
 }
 nav a:hover{
     color: #f2e9e4;
@@ -78,28 +84,20 @@ nav a:hover{
 .style-img{
     height: 300px;
     background-repeat: no-repeat;
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    float: left; 
+    margin-left: 2%;
+    margin-right: 1.25em;
     width: 30%;
-    margin-top: 25px;
+    margin-top: 1.2em;
 }
-.inner{
-      width: 30%;
-      float: left;
-}
-.outer{
-    width: 30%;
-    float: left;
-}
+
 h2{
       text-align: right;
       display:inline-flex;
 }
 .sizing{
-      padding-bottom: 20%;
-      height: 100px;
-      margin: auto;
+      padding-bottom: 15%;
+      height: 200px;
 } 
 .tourist1{
     background-image: url(pics/freedom-trail.jpg);
